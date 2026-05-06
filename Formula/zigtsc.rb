@@ -7,22 +7,22 @@ class Zigtsc < Formula
   on_macos do
     on_arm do
       url "https://github.com/nathanjmorton/zigtsc/releases/download/v#{version}/zigtsc-aarch64-macos.tar.gz"
-      sha256 "cc983ed99e2bd2de7bc4026295f26752fe554622f5ed2f07239bdbb8f4a1164d"
+      sha256 "d2c84dedf88860d8a375b94e0bea70b45ff1e5d8359836c2dd002148b8114431"
     end
     on_intel do
       url "https://github.com/nathanjmorton/zigtsc/releases/download/v#{version}/zigtsc-x86_64-macos.tar.gz"
-      sha256 "fdafdeaaacc7d5d43590c71d9ad96f332b982e826db2dbac17ea0b2c37a89490"
+      sha256 "8bb629b397ec5bab1a53385520fa84d37890e776f1b80e2520ab3683ec4dc015"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/nathanjmorton/zigtsc/releases/download/v#{version}/zigtsc-aarch64-linux-gnu.tar.gz"
-      sha256 "38e275ea6cc19f9e1d39c00bf903e9991b1951d22f29fb69598bd6f2dbbfc566"
+      sha256 "71f986b98c0e48ef3592d5f5a689e6380571f12a085b433546c9b81ac497174d"
     end
     on_intel do
       url "https://github.com/nathanjmorton/zigtsc/releases/download/v#{version}/zigtsc-x86_64-linux-gnu.tar.gz"
-      sha256 "0ccb1b5011f59d40883884ce78e4b56e8dae25beaa10b00796a06f6568ce6be4"
+      sha256 "87a8631ebe3c851a47e5d859da900d48144226c8a7fd0a058244f64207041769"
     end
   end
 
