@@ -1,7 +1,7 @@
 class Zigtsc < Formula
   desc "TypeScript subset compiler targeting C, C++, and JavaScript"
   homepage "https://github.com/nathanjmorton/zigtsc"
-  version "0.3.0"
+  version "0.4.0"
   license "MIT"
 
   on_macos do
