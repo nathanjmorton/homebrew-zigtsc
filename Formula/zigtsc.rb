@@ -1,28 +1,28 @@
 class Zigtsc < Formula
   desc "TypeScript subset compiler targeting C, C++, and JavaScript"
   homepage "https://github.com/nathanjmorton/zigtsc"
-  version "0.4.0"
+  version "0.6.0"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/nathanjmorton/zigtsc/releases/download/v#{version}/zigtsc-aarch64-macos.tar.gz"
-      sha256 "f2d3d2d332ea411077f0ffa1eef4c3f64d1f6d3d9a78d968d10297dd283d7532"
+      sha256 "86984d28db074f0a3f757ab502a225e9e6a9d7cde86967c9eb0331c0959e19b7"
     end
     on_intel do
       url "https://github.com/nathanjmorton/zigtsc/releases/download/v#{version}/zigtsc-x86_64-macos.tar.gz"
-      sha256 "666801491d0d10da866af7f2d05677a2d30a95c4cfdd96a5a01f2faafff00e1c"
+      sha256 "68cfadcb72a4658def17404e3715e2a1925e370c25f5afffe87d72d0bea47c8d"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/nathanjmorton/zigtsc/releases/download/v#{version}/zigtsc-aarch64-linux-gnu.tar.gz"
-      sha256 "dc8ea1cb4fa03541dd59648b744ca43a5b716a91d1dd5584c16c4d2be038a1c0"
+      sha256 "158d5f5c5e826598c5b014e3397d5f5dc6b8b98b55f22afc4ec078f96af44a75"
     end
     on_intel do
       url "https://github.com/nathanjmorton/zigtsc/releases/download/v#{version}/zigtsc-x86_64-linux-gnu.tar.gz"
-      sha256 "d30a95c4cfdd96a5a01f2faafff00e1c"
+      sha256 "a483a23691166b211b872f458ec9250476ee7a5b2f0988969484c776c8e341e7"
     end
   end
 
